@@ -1,0 +1,369 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* header */
+
+
+/* .header{
+  display: flex;
+position: relative;
+  /* background-color:  red; */
+/* }
+.header {
+background-color: #f8f9fa;
+} */
+
+/*
+.navbar-brand img{
+  border-radius: 5%;
+  max-width: 100px;
+}
+
+.iconos{
+  display: flex;
+  width: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+}
+
+.iconos img{
+  max-width: 50px;
+  padding: 10px;
+/* } */
+/* header */
+
+
+
+.container-fluid .row .category-path h6 ul {
+  display: flex;
+  /* background-color: grey; */
+/* background-color: red; */
+margin-left: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+color: black;
+}
+.container-fluid .row .category-path h6 ul li {
+list-style-type: none;
+padding-left: 5px;
+
+
+}
+container-fluid .row .category-path a{
+color: black;
+
+
+}
+.container-fluid .row a{
+/* width: 100%; */
+/* padding: 32px; */
+/* margin-left: 20px; */
+/* display: flex; */
+display: flex;
+}
+
+.container-fluid .row .product-photo  {
+margin: 0 auto;
+width: 90%;
+/* padding: 5%; */
+/* align-items: center; */
+/* max-width: 600px; */
+/* display: flex; */
+height: 500px;
+/* margin-left:  50px;
+margin-right: 50px; */
+
+/* padding: 30px; */
+
+}
+.container-fluid .row .product-photo a {
+/* margin: 0 auto; */
+/* align-items: center; */
+/* width: 100%;
+max-width: 600px; */
+overflow:hidden;
+
+}
+
+.container-fluid .row .product-photo a:hover img{
+/* margin: 0 auto; */
+/* align-items: center; */
+/* width: 100%;
+max-width: 600px; */
+-webkit-transform:scale(1.3);transform:scale(1.3);
+box-shadow: none;
+
+width: 0 auto;
+}
+
+
+.container-fluid .row .product-photo a img {
+/* margin: 0 auto; */
+/* align-items: center; */
+/* width: 100%;
+max-width: 600px; */
+width: 100%;
+height:500px;
+border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.product-photos-min {
+  /* background-color: yellow; */
+  width: 100%
+  }
+
+.product-photos-min ul{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0px;
+}
+.row .product-photos-min ul li{
+  list-style-type: none;
+  /* align-items: center; */
+  margin: 10px;
+}
+.row .product-photos-min ul a{
+/* margin=0 auto;
+align-items: center; */
+}
+
+.product-photos-min ul li a img{
+  width: 100%;
+  height: 100%;
+  /* margin: 0 auto; */
+  border-style: solid;
+
+}
+
+.product-info{
+  /* background-color: grey; */
+  margin: 0 auto;
+  width: 100%;
+height: 100%;
+/* padding-bottom: 5%; */
+}
+
+
+.product-info .product-short-description .product-brand {
+/* display: flex; */
+  margin: 0 auto;
+  width: 20%;
+  /* height: 10%;
+  margin-top: 20px;
+  align-items: center; */
+}
+
+.product-info .product-short-description .product-brand a img{
+
+  /* margin: 0 auto; */
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  margin-top: 30%;
+}
+
+.product-info .product-short-description .product-name{
+  /* display: flex; */
+    margin: 0 auto;
+width: 60%;
+}
+
+.product-info .product-short-description .product-name h1 {
+  /* display: flex;
+align-items: center; */
+margin-top: 5%;
+/* width: 70%; */
+}
+
+.product-info .product-short-description .product-name h1 p{
+  /* display: flex; */
+
+text-align: center;
+
+}
+
+.product-info .product-short-description .product-stock{
+  display: flex;
+}
+.product-info .product-short-description .product-stock p{
+  margin: 0 auto;
+  /* background-color: black; */
+font-size: 35px;
+/* background-color: green; */
+border-radius: 5%;
+border-style: groove;
+}
+
+.product-info .product-short-description .product-stock p::after{
+  /* margin: 0 auto; */
+content: url('../imagenes/check1.png');
+/* background-color: green; */
+
+/* display:block; */
+}
+
+
+.product-tipos-disp {
+  /* background-color: blue; */
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  }
+
+.product-tipos-disp ul{
+  display: flex;
+  width: 100%;
+  /* min-width: 40px; */
+  margin: 0 auto;
+  /* padding: 0px; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-tipos-disp ul li{
+  list-style-type: none;
+  /* align-items: center; */
+  /* margin: 10px; */
+
+}
+.product-tipos-disp ul a{
+/* margin=0 auto;
+align-items: center; */
+height: 80px;
+width: 80px;
+}
+
+.product-tipos-disp ul li a img{
+  width: 50%;
+  height: 50%;
+  /* margin: 0 auto; */
+  border-style: solid;
+    /* min-width: 40px;  */
+/* min-width: 30px; */
+}
+
+.product-info .product-short-description .product-price{
+
+display: flex;
+}
+
+.product-info .product-short-description .product-price p{
+margin: 0 auto;
+
+  /* margin-bottom: 5%; */
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.product-info .product-short-description .product-button-comprar{
+  display: flex;
+  /* margin-top: 5%; */
+  /* margin-bottom: 5%; */
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.product-info .product-short-description .product-button-comprar a{
+margin: 0 auto;
+color: white;
+font-size: 20px;
+text-decoration: none;
+background-color: black;
+border-radius: 15%;
+padding-left: 10px;
+padding-right: 10px;
+
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+.product-info .product-short-description .product-button-comprar a:hover{
+
+background-color: green;
+}
+
+.descripcion {
+margin-top: 70px;
+margin-bottom: 50px;
+}
+
+ .descripcion h3{
+text-align: center;
+  /* background-color: red; */
+padding-left: 0px;
+margin-left: 0px;
+}
+.titulo-recomendados{
+  margin-top: 150px;
+  margin-left: 5px;
+}
+
+.recomendados{
+  margin-top: 50px;
+}
+.card img{
+  padding: 10px;
+}
+
+/* COMiENzo CSS FOOTER */
+/* footer{
+  margin-top: 150px;
+  height: auto;
+  background-color: #f8f9fa;
+  padding: 2% 0 2% 0;
+  font-size: 15px;
+}
+
+
+
+.footer-l1 a{
+justify-content: center;
+
+color: black;
+}
+
+.footer-l1 img{
+  width: 100px;
+
+}
+.footer-l2{
+  margin-top: 20px;
+}
+
+.footer-l2 a{
+justify-content: center;
+font-size: 20px;
+color: black;
+}
+
+.footer-l2 .row .redes a{
+padding:0px 3px 0px 3px ;
+}
+.footer-l2 .row .redes a img{
+width: 60%;
+}
+.seguinos .row{
+  justify-content: center;
+}
+
+.redes {
+  display: flex;
+
+}
+
+.contactanos a h5::before{
+  content: url('../images/iconos/icons8-whatsapp-24.png');
+
+} */
+/* FIN CSS FOOTER */

@@ -1,0 +1,95 @@
+/* .header{
+  display: flex;
+position: relative; */
+  /* background-color:  red; */
+/* }
+.header {
+background-color: #f8f9fa;
+} */
+
+
+/* .navbar-brand img{
+  border-radius: 5%;
+  max-width: 100px;
+}
+
+.iconos{
+  display: flex;
+  width: 15%;
+  justify-content: space-evenly; */
+  /* align-items: center; */
+  /* position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.iconos img{
+  max-width: 50px;
+  padding: 5px;
+} */
+/* header */
+
+
+
+/* COMiENzo CSS FOOTER */
+footer{
+  margin-top: 150px;
+  height: auto;
+  background-color: #f8f9fa;
+  padding: 2% 0 2% 0;
+  font-size: 15px;
+
+}
+/* Ojo esto hay que corregirlo porque no esta especifico y afecta a todo el archivo */
+.container-fluid .row a{
+  display: flex;
+}
+
+.footer-l1 a{
+justify-content: center;
+
+color: black;
+}
+
+.footer-l1 img{
+  width: 100px;
+
+}
+.footer-l2{
+  margin-top: 20px;
+}
+
+.footer-l2 a{
+justify-content: center;
+font-size: 20px;
+color: black;
+}
+
+.footer-l2 .row .redes a{
+padding:0px 3px 0px 3px ;
+}
+.footer-l2 .row .redes a img{
+width: 60%;
+}
+.seguinos .row{
+  justify-content: center;
+}
+
+.redes {
+  display: flex;
+
+}
+
+.contactanos a h5::before{
+  content: url('../images/iconos/icons8-whatsapp-24.png');
+
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+/* FIN CSS FOOTER */

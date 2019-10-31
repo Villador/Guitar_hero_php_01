@@ -1,0 +1,39 @@
+.navbar-brand{
+  margin-bottom: 8px;
+}
+.services-section {
+  margin-top: 50px;
+
+}
+.navbar img{
+
+}
+.services-section .uno img{
+padding-top: 3px;
+}
+
+.carousel-inner .carousel-item img{
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+nav .deabajo{
+  display: block;
+}
+nav .deabajo .registro{
+margin-right: 10px;
+text-decoration: none;
+color: inherit;
+}
+nav .deabajo .login{
+margin-right: 10px;
+text-decoration: none;
+color: inherit;
+
+}
+
+.nav .nav-link {
+  color: black;
+}
+
+
